@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "MZK Wikipedia";
+}
+
+
+<div class="row ">
+    <div class="col-12">
+        <h2 class="text-center">Wikipedia</h2>
+    </div>
+</div>
+
+<div class="wiki-input-box">
+    <div class="wiki-form">
+        <input type="text" value="" placeholder="Search Text" class="form-control" id="wiki-search-text"/>
+        <button class="btn btn-outline-primary mx-2" id="wiki-search-btn">Search</button>
+    </div>
+</div>
+
+<div class="wiki-result-box">
+    <div class="row">
+        <div class="col-lg-4 col-md-5 col-sm-12">
+            <h4 class="text-center" id="progress"></h4>
+            <div class="wiki-result-headings" id="wiki-result-headings">
+                <h6>Search Results : </h6>
+                <ul id="heading-list">
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-8 col-md-7 col-sm-12"></div>
+    </div>
+</div>
