@@ -1,4 +1,4 @@
-# Wikipedia by Mirxa Xayn
+# Wikipedia Search in Asp.net MVC by Mirxa Xayn
 This is an Asp.net mvc project.
 
 1. In this project, i use Entity Framework Code First Approach.
